@@ -14,13 +14,13 @@ conda create -n webApp python=3.9
 ![image](https://github.com/user-attachments/assets/21b41615-d9b7-4c4a-a871-f34ebfaef42a)
 
 4. Flask 프레임워크 설치
-5. 
+
 ```bash
 pip install flask
 ```
 
 5. 코드 생성
-   5-1. app.py - 아래는 Flask를 이용해 이름과 전화번호를 입력받아 addbook.txt 파일에 CSV 형식으로 저장하는 간단한 웹 애플리케이션 코드입니다. HTML 템플릿도 함께 포함되어 있습니다.
+  5-1. app.py - 아래는 Flask를 이용해 이름과 전화번호를 입력받아 addbook.txt 파일에 CSV 형식으로 저장하는 간단한 웹 애플리케이션 코드입니다. HTML 템플릿도 함께 포함되어 있습니다.
    
 ```python
 from flask import Flask, render_template, request, redirect
