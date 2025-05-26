@@ -7,3 +7,7 @@
 
 ```bash
 conda create -n webApp python=3.9
+'''
+
+3. 가상환경 연결
+![image](https://github.com/user-attachments/assets/21b41615-d9b7-4c4a-a871-f34ebfaef42a)
