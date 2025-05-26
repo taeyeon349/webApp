@@ -20,6 +20,7 @@ pip install flask
 ```
 
 5. 코드 생성
+
   5-1. app.py - 아래는 Flask를 이용해 이름과 전화번호를 입력받아 addbook.txt 파일에 CSV 형식으로 저장하는 간단한 웹 애플리케이션 코드입니다. HTML 템플릿도 함께 포함되어 있습니다.
    
 ```python
@@ -77,7 +78,7 @@ if __name__ == '__main__':
     
   5.3 addbook.txt 파일 이 파일은 코드 실행 중에 자동으로 생성됩니다. 초기에는 빈 파일로 시작합니다.
 
-##프로그램 실행 방법
+## 프로그램 실행 방법
 
 ```bash
 python app.py
