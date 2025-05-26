@@ -103,7 +103,7 @@ python app.py
         <button type="submit">Add Contact</button>
     </form>
 </body>
-```
+  ```
 
 위 코드에서 form action="/add"는 현재 url에서 /add 라우터를 호출한다.
 라우터가 호출되면 py 파일에서 해당 라우터 함수가 실행 된다.
@@ -128,7 +128,7 @@ def add_contact():
         writer.writerow([name, phone])
 
     return redirect('/')
-```
+  ```
 
 @app.route('/')는 해당 웹페이지 주소 localhost/를 호출 할때 실행되는 라우트이고
 def index(): 는 이때 실행 되는 함수이다.
