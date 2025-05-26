@@ -51,7 +51,9 @@ if __name__ == '__main__':
     app.run(debug=True)
 ```
 
+
     5.2 templates/index.html 파일 Flask는 기본적으로 templates 폴더에서 HTML 파일을 찾습니다. 아래는 index.html 파일의 내용입니다.
+
     
 ```html
 <!DOCTYPE html>
@@ -76,6 +78,7 @@ if __name__ == '__main__':
 </html>
 ```
     
+
     5.3 addbook.txt 파일 이 파일은 코드 실행 중에 자동으로 생성됩니다. 초기에는 빈 파일로 시작합니다.
 
 ## 프로그램 실행 방법
