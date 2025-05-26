@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Address Book</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Address Book in AI Class at 20250526</h1>
+    <form action="/add" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="htmlName" name="pyName" required>
+        <br><br>
+        <label for="phone">Phone:</label>
+        <input type="text" id="htmlPhone" name="pyPhone" required>
+        <br><br>
+        <button type="submit">Add Contact</button>
+    </form>
+</body>
+</html>
